@@ -6,13 +6,20 @@ Overview
 This project demonstrates parameter-efficient fine-tuning (PEFT) using LoRA on the FLAN-T5-Small model for dialogue summarization using the DialogSum dataset.
 The goal is to show how an LLM can be adapted with only 1–2% trainable parameters, while achieving competitive summarization quality.
 Features
+
 •	✔ Fine-tuning FLAN-T5-Small using LoRA adapters
+
 •	✔ Only 1.7% of parameters are trained (rest are frozen)
+
 •	✔ Evaluation using the ROUGE metric
+
 •	✔ Comparison between:
+
 o	Original Base Model
 o	LoRA-Fine-Tuned Model
+
 •	✔ Clean, reproducible pipeline using HuggingFace + PEFT
+
 •	✔ GPU-friendly (runs on Google Colab)
 
  Dataset: knkarthick/dialogsum
