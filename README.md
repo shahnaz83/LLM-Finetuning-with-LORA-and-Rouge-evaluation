@@ -12,7 +12,9 @@ The goal is to show how an LLM can be adapted with only 1–2% trainable paramet
 •	✔ Only 1.7% of parameters are trained (rest are frozen)
 
 •	✔ Evaluation using the ROUGE metric
+
 •	✔ Clean, reproducible pipeline using HuggingFace + PEFT
+
 •	✔ GPU-friendly (runs on Google Colab)
  #### Comparison between:
 
@@ -29,7 +31,7 @@ Why this model?
 •	Lightweight
 •	Works on free Colab GPU
 #### Evaluation (ROUGE)
-Metrics reported:
+##### Metrics reported:
 1.ROUGE-1
 2.ROUGE-2
 3.ROUGE-L
