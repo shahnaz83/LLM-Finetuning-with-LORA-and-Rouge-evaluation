@@ -23,9 +23,13 @@ The goal is to show how an LLM can be adapted with only 1–2% trainable paramet
 
 # Model
 Base model:
+
 -google/flan-t5-small
+
 Why this model?
+
 •	Lightweight
+
 •	Works on free Colab GPU
 #### Evaluation (ROUGE)
 ##### Metrics reported:
