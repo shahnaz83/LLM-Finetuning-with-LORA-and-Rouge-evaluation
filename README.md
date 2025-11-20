@@ -13,7 +13,6 @@ The goal is to show how an LLM can be adapted with only 1–2% trainable paramet
 
 •	✔ Evaluation using the ROUGE metric
 •	✔ Clean, reproducible pipeline using HuggingFace + PEFT
-
 •	✔ GPU-friendly (runs on Google Colab)
  #### Comparison between:
 
@@ -31,10 +30,10 @@ Why this model?
 •	Works on free Colab GPU
 #### Evaluation (ROUGE)
 Metrics reported:
--ROUGE-1
--ROUGE-2
--ROUGE-L
--ROUGE-Lsum
+1.ROUGE-1
+2.ROUGE-2
+3.ROUGE-L
+4.ROUGE-Lsum
 We evaluate both:
 1.	Original FLAN-T5-Small
 2.	LoRA Fine-Tuned Model
