@@ -16,10 +16,7 @@ The goal is to show how an LLM can be adapted with only 1–2% trainable paramet
 •	✔ Clean, reproducible pipeline using HuggingFace + PEFT
 
 •	✔ GPU-friendly (runs on Google Colab)
- #### Comparison between:
-
-o	Original Base Model
-o	LoRA-Fine-Tuned Model
+ 
 
  ##### Dataset: knkarthick/dialogsum
  Task: Contains ≈ 13K dialogues + human-written summaries
@@ -33,9 +30,13 @@ Why this model?
 #### Evaluation (ROUGE)
 ##### Metrics reported:
 1.ROUGE-1
+
 2.ROUGE-2
+
 3.ROUGE-L
+
 4.ROUGE-Lsum
+
 We evaluate both:
 1.	Original FLAN-T5-Small
 2.	LoRA Fine-Tuned Model
